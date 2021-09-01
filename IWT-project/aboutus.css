@@ -1,0 +1,97 @@
+.parallax {
+ 
+  background-image: url("pic1.jpg");
+  height:200vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-style: italic;
+    
+   
+}
+.container{
+    height:auto;
+    width:30%;
+    background: rgba(0,0,0,.6);
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 0px 10px;
+}
+.img{
+    height:70px;
+    width:70px;
+    background:url(logo2edit1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position:absolute;
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.container{
+    color: aliceblue;
+    margin-top: 50px;
+}
+.container p{
+    color:darkgray;
+    margin-top: 10px;
+}
+h1{
+    color:darkgray;
+    text-align: center;
+    margin-top: 30px;
+}
+h2{
+    color:firebrick;
+    margin-top: 0px;
+    padding-left: 10px
+
+}
+p{
+    color:beige;
+    padding-left: 10px
+    
+}
+h3{
+    color:deepskyblue;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.footer{
+    background: rgba(0,0,0,.5);
+    width:100%;
+    height:auto;
+    position:fixed;
+    bottom:0%; 
+    
+}
+ul li a{
+    
+    text-decoration:none;
+    color:slategrey;
+    padding: 3px 10px;
+    border:2px solid white;
+    transition: 0.3s ease;
+}
+
+ul li a:hover{
+    background-color:darkgray;
+    color:black;
+}
+ul{
+    float: left;
+}
+
+ul li{
+    display: inline-block;
+}

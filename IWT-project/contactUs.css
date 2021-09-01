@@ -1,0 +1,88 @@
+body {
+ 
+    background-image:url(brooke-lark-08bOYnH_r_E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+body{
+    margin:0;
+   
+    text-align: center;
+   
+    font-family: cursive;
+}
+.title{
+    margin-top: 150px;
+    color:darkred;
+}
+.title h1{
+    font-size: 42px;
+    line-height: 10px;
+    
+}
+.title h2{
+    font-size: 32px;
+    
+}
+form{
+    margin-top: 50px;
+    
+}
+.form-control{
+    width: 400px;
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+input{
+    height: 35px;
+}
+
+form .submit{
+    background-color:darkkhaki;
+    border:2px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: darkgray;
+    color: black;
+    transition:0.6s ease;
+}
+.footer{
+    background: rgba(0,0,0,.3);
+    width:100%;
+    height:50px;
+    position:fixed;
+    bottom:0%; 
+    
+}
+ul li a{
+    text-decoration:none;
+    color:gainsboro;
+    padding: 2px 10px;
+    border:2px solid grey;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color:darkgray;
+    color:black;
+}
+ul{
+    float: left;
+}
+
+ul li{
+    display: inline-block;
+}
+.main{
+   padding-left: 50px;
+}
+.box {
+    
+}

@@ -1,0 +1,99 @@
+body{
+    background-image: url(lukas-blazek-EWDvHNNfUmQ-unsplash.jpg);
+    background-size: cover;
+}
+
+
+.footer{
+    top:0%;
+    left: 0%;
+    position: fixed;
+    background-color:#000000cc;
+    height: 70px;
+    width: 100%;
+}
+
+a{
+    float:right;
+    padding-right: 20px;
+    padding-top: 15px;
+        
+}
+
+.text 
+{
+    padding-left: 30px;
+    color:crimson;
+    font-size: 50px;
+    line-height:60px;
+    
+}
+
+.footer2{
+    
+    margin-top: 15px;
+    top:50%;
+    left:50%;
+    position: fixed;
+    background-color:#000000cc;
+    height: 80%;
+    width: 70%;
+    transform: translate(-50%,-50%);
+}
+.footer2 img{
+    padding-top: 50px;
+    transform: translate(-20%,0);
+    
+}
+h1{
+    float:right;
+    padding-right: 300px;
+    color:white;
+    font-size: 60px;
+    font-family: cursive;
+}
+   
+p{
+    
+    float:right;
+    padding-right: 300px;
+    color:white;
+    font-size: 40px;
+    font-family: cursive;
+}
+span{
+    font-size: 40px;
+    color:crimson;
+}
+.btn{
+    
+    position: fixed;
+    top:35%;
+    left:44%;
+    text-align: center;
+}
+ul li a
+{
+    border-radius: 5px;
+    text-decoration:none;
+    color:red;
+    padding: 6px 19px;
+    border:2px solid white;
+    transition: 0.3s ease;
+}
+
+ul li a:hover
+{
+    background-color:red;
+    color:white;
+}
+ul{
+    padding-bottom: 500px;
+}
+
+ul li
+{   
+    font-size: 20px;
+    display: inline-block;
+}
+

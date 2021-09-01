@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:cursive;
+}
+
+header{
+   
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(lidye-1Shk_PkNkNw-unsplash.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+p{
+    color:#ffffff;
+     margin-left: 20px;
+        
+}
+
+ul{
+    float: right;
+    margin-top: 4px; 
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    
+    text-decoration:none;
+    color: coral;
+    padding: 5px 20px;
+    border:1px solid black transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: azure;
+    color: black;
+}
+
+.logo img{
+    float:left;
+    width:300px
+    height:300px;
+}
+.main{
+   max-width:1500px;
+}
+.footer{
+    background: rgba(0,0,0,.5);
+    width:100%;
+    height:45px;
+    position:fixed;
+    bottom:0%; 
+    
+}
+
+.iconright{
+    background: #ffffff00;
+    width:150px;
+    height:auto;
+    position:fixed;
+    right:0%;
+    bottom:0%; 
+}
+h1{
+    color: darkgrey;
+    font-family:cursive;
+    font-size: 60px;
+   
+    
+}
+.title{
+     position: absolute;
+    top: 60%;
+    left: 48%;
+    transform:translate(-50%,-50%);
+}
+.button
+{
+    position: absolute;
+    top: 80%;
+    left: 48%;
+    transform:translate(-50%,-50%);
+}
+.btn1
+{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn1:hover
+{
+    background-color: darkgray;
+    color: black;
+}
+
+.btn2
+{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn2:hover
+{
+    background-color: darkgray;
+    color: black;
+}
+.header{
+    float: right
+    background: rgba(0,0,0,.5);
+    width:100%;
+    height:auto;
+    position:fixed;
+    top:0%; 
+    
+}
+
+
+.popup{
+    background: rgb(0,0,0,0.3) ;
+    width: 100%;
+    height:100% ;
+    position:absolute;
+    top: 100px;
+    display:none;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+   transition: background 1s ease;
+}
+
+
+
+.popup-elements{
+    height:320px ;
+    width:500px ;
+    background:rgb(0,0,0,.9) ;
+    padding:20px ;
+    border-radius: 5px;
+    position: relative;
+}
+
+input{
+    
+    margin:20px auto;
+    display: block;
+    width: 200px;
+    padding: 9px;
+    border: 3px solid grey;
+}
+
+.close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+
+
+.logInButton 
+{
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform:translate(-50%,-50%);
+    padding-top: 15px;
+}
+
+.btnlogin 
+{
+      
+      border: 1px solid #fff;
+      padding: 10px 30px;
+      color: white;
+      text-decoration:none;
+      transition: 0.5s ease;
+}
+
+.btnlogin:hover
+{
+       background-color: darkgray;
+       color: black;
+}
+
+
+.popup2
+{
+    background: rgb(0,0,0,0.3) ;
+    width: 100%;
+    height:100% ;
+    position:absolute;
+    top: 100px;
+    display:none;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    
+}
+
+.popup2-elements
+{
+    height:550px ;
+    width:500px ;
+    background:rgb(0,0,0,.9) ;
+    padding-top:30px ;
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 30px;
+    transition: 0.5s ease;
+   
+    
+}
+
+
+
+
+input
+{
+    
+    margin:20px auto;
+    display: block;
+    width: 200px;
+    padding: 9px;
+    border: 3px solid grey;
+}
+
+.close2
+{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 70px;
+    cursor: pointer;
+    
+
+}
+.DoneButton 
+{
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform:translate(-50%,-50%);
+    margin-top: 49px;
+}
+
+.Done 
+{
+      
+      border: 2px solid grey;
+      padding: 10px 30px;
+      color: white;
+      text-decoration:none;
+      transition: 0.5s ease;
+}
+
+.Done:hover
+{
+       background-color: darkgray;
+       color: black;
+}
+
+

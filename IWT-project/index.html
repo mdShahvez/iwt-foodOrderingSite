@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Funday Food's</title> 
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="main">
+            <div class="logo">
+                    <img src="indexlogo.jpg" width="40%" height="auto">
+            </div>
+                
+                <div class="header">
+                <ul>
+                    <li><a href="aboutUs.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    
+                </ul>
+                </div>
+                
+            </div>
+            
+            <div class="title">
+              
+                <h1>Funday Food's</h1>
+                
+            </div>
+            
+            <div class="button">
+                <a href="#" class="btn1" id="btn1">Sign In</a>
+                <a href="#" class="btn2" id="btn2">Sign Up</a>
+                
+            </div>
+            
+        </header>
+        
+        <div class="footer">
+             <p>&copy;Funday Food's.All Right Reserve 2020 CU(IWT)</p>
+             
+        </div>
+        
+        <div>
+             <footer>
+               <div class="footer">
+                    <div class="iconright">
+                   <a target="_blank" href="https://www.instagram.com/?hl=en"><img src="insta.png" height="40px" width="40px"/></a>
+                   <a target="_blank" href="https://www.youtube.com/"><img src="yutub.png" height="32px" width="42px" /></a>
+                   <a target="_blank" href="https://twitter.com/?lang=en"><img src="twtr.png"  height="40px" width="45px" /></a>
+                   </div>
+               </div>
+             </footer>
+        </div>
+        
+        
+        
+        
+        
+        <div class="popup">
+            <div class="popup-elements">
+                
+                    
+                     <img src="closeIcon2.jpg" alt="close"  class="close">
+                     <img src="key2.png" alt="user">
+                     <input type="text"  placeholder="Username" required>
+                     <input type="Password"  placeholder="password" required>
+                    
+                
+                <div class="logInButton">
+                   <a href="main.html" class="btnlogin">LogIn</a>
+                </div>
+                
+            </div>
+        </div>         
+        
+
+                    <script>
+                        document.getElementById("btn1").addEventListener("click",function(){
+                            document.querySelector(".popup").style.display="flex";
+                        })
+
+                         document.querySelector(".close").addEventListener("click",function(){
+                            document.querySelector(".popup").style.display="none";
+                        })
+                    </script>>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         <div class="popup2">
+            <div class="popup2-elements">
+                
+                <img src="closeIcon2.jpg" alt="close"  class="close2">
+                
+                <img src="signup2.png" alt="signup" >
+                <input type="text" placeholder="firstname" required>
+                <input type="text" placeholder="Lastname" required>
+                <input type="text" placeholder="E-mail">
+                <input type="Password" placeholder="password">
+                <input type="Password" placeholder="Confirm-password">
+                                                             
+                
+                <div class="DoneButton">
+                  <a href="main.html" class="Done">Done</a>
+                </div>
+                
+            </div>
+        </div>
+        
+
+                    <script>
+                        document.getElementById("btn2").addEventListener("click",function(){
+                            document.querySelector(".popup2").style.display="flex";
+                        })
+
+                         document.querySelector(".close2").addEventListener("click",function(){
+                            document.querySelector(".popup2").style.display="none";
+                        })
+                    </script>>
+        
+        </body>
+    
+</html>

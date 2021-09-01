@@ -1,0 +1,208 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: cursive;
+    background-image: url(patrick-fore-hoxqcGUheeo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.app-container{
+    height: 650px;
+    width: 350px;
+    background-image:rgb(0,0,0,.6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+}
+.top-box{
+    height: 150px;
+    background-color:dimgrey;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.top-box p{
+    text-align: center;
+    padding-top: 20px;
+    color:#fff;
+    font-size: 30px;
+}
+
+.middle-box{
+    
+    height: 155px;
+    background-image: linear-gradient(#bdc3c7,#2c3e50);
+    margin: -70px 30px 20px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 30px;
+    
+}
+.para
+{
+   
+    font-size: 15px;
+    color: darkgray;
+    
+}
+.middle-box h1
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.middle box h1 span
+{
+    font-size: 40px;
+    margin-left: 5px;
+    bottom: 18px;
+    position: relative;
+    
+}
+.payment-option-btn:hover
+{
+    background-color:black;
+    transition: 0.6s ease;
+}
+.payment-option-btn{
+    color:#fff;
+    margin: 5px 30px;
+    height:30px;
+    width: 290px;
+    background-color:darkgrey;
+    border:none;
+}
+.card-details
+{
+    background: rgb(0,0,0,.5);
+    color: gray;
+    margin: 10px 30px;
+    padding: 10px;
+}
+.card-details p{
+    font-size: 20px;
+}
+.card-details label
+{
+    font-size: 17px;
+}
+.card-num-field-grp
+{
+    margin-top: 10px;
+}
+.date-field-grp
+{
+    margin-top: 10px;
+    display: inline-block;
+}
+.cvv-field-grp
+{
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
+.name-field-grp
+{
+    margin-top: 10px;
+    
+}
+.card-num-field,name-field
+{    
+    font-size: 17px;
+    width: 270px;
+}
+.date-field,.cvv-field
+{
+    font-size: 17px;
+    width:80px;
+    
+}
+.card-detail input{
+      border:1px solid #ccc;
+    height:22px;
+    padding: 5px;
+    font-size: 10px;
+    
+} 
+.card-detail input::placeholder
+{
+    color:#ccc;
+    
+}
+.Pay-button
+{
+     width: 270px;
+    color:#fff;
+    margin-top: 30px;
+    height:30px;
+    background-color:darkslateblue;
+    border:none;
+    
+}
+.Pay-button:hover
+{
+    background-color: darkgrey;
+    color:black;
+}
+.name-field {
+    font-size: 17px;
+    width: 266px;
+    float:left;
+    
+}
+.footer{
+    background: rgba(0,0,0,.5);
+    width:100%;
+    height:40px;
+    position:fixed;
+    bottom:0%; 
+    
+}
+ul li a
+{
+    line-height: 40px;
+    text-decoration:none;
+    color:aqua;
+    padding: 2px 10px;
+    border:1px solid white;
+    transition: 0.3s ease;
+}
+
+ul li a:hover{
+    background-color:black;
+    color:darkgray;
+}
+ul{
+    padding-left: 15px;
+    float: left;
+}
+
+ul li{
+    display: inline-block;
+}
+
+
+.date {
+
+    font-size: 17px;
+    border-radius: 0px;
+}
+
+
+.name-field-grp input{
+     margin-top: 2px;
+}
+.Pay-button a{
+    color:white;
+    padding: 5px 100px;
+    text-decoration: none;
+    
+}
+
+
+

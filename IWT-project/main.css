@@ -1,0 +1,149 @@
+body{
+    background-color:black;
+    
+    
+}
+.text{
+    background-color:black;
+    margin-left: 30px;
+    color:crimson;
+    float:left;
+    font-size: 50px;
+
+    
+}
+.footer{
+    background-color:black;
+    height: 70px;
+    width: 100%;
+    
+   text-align: center;
+
+}
+ul{
+    float: right;
+    margin-top: 20px; 
+    margin-right:50px;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    margin-top: auto;
+    text-decoration:none;
+    color: coral;
+    padding: 5px 20px;
+    border:1px solid black;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: azure;
+    color: black;
+}
+
+
+
+
+
+.slideshow-container {
+  float: left;
+  max-width: 100%;
+  position: relative;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+ 
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.footer2 {
+    height:auto;
+    width:1080px;
+    margin:  auto;
+    
+}
+ul2{
+    list-style: none;
+    margin-top: 2%;
+}
+ul2 li2{
+    background:#262626;
+    width:170px;
+    border:1px solid white; 
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    float:left;
+    color:white;
+    font-size:17px;
+    position:relative;
+    font-family:cursive;
+    
+}
+ul2 li2:hover{
+    background-color: dodgerblue;
+    color:black;
+    font-weight: 700;
+    transition: 1s ease;
+    
+}
+ul2 ul2{
+    display:none;
+    
+}
+ul2 li2:hover > ul2 {
+    display: block;
+    
+}
+ul2 ul2 ul2 {
+    margin-left:170px;
+    top:0px;
+    position: absolute;
+    
+}
+
+
+p {
+    text-align: center;
+}
+
+.dots {
+    text-align: center;
+}
+
+.link {
+    
+    color:white;
+    padding: 10px 70px;
+
+}
+.link:hover{
+    color:red;
+    line-height: 50px;
+}
